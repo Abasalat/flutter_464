@@ -61,6 +61,7 @@ class Myapp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 14),
+
               Center(
                 child: Text(
                   'This is my login screeen with good \n ui n and good user experience',
@@ -72,6 +73,7 @@ class Myapp extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 100),
               Padding(
                 padding: EdgeInsets.only(left: 20, right: 20, top: 30),
                 child: TextFormField(
@@ -108,6 +110,18 @@ class Myapp extends StatelessWidget {
                       borderSide: BorderSide(color: Color(0xffE4E7EB)),
                       borderRadius: BorderRadius.circular(10),
                     ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(left: 200, top: 10),
+                child: Text(
+                  'Forget Password?',
+                  style: TextStyle(
+                    decoration: TextDecoration.underline,
+                    fontFamily: 'Rubik Regular',
+                    fontSize: 16,
+                    color: Color(0xff323F4B),
                   ),
                 ),
               ),
